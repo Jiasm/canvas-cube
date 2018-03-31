@@ -1,0 +1,8 @@
+{
+  "handlebars": {
+    "extends": "html",
+    "profile": "handlebars",
+    "filters": "html"
+  }
+}
+
