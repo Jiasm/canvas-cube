@@ -5,7 +5,7 @@ const FlowBabelWebpackPlugin = require('flow-babel-webpack-plugin')
 
 module.exports = {
   // 编译方式
-  devtool: false,
+  devtool: "source-map",
   entry: ['./index.js'],
   resolve: {
     extensions: ['.js', '.jsx', '.css', '.scss', '.gif', '.png', '.jpeg', '.svg']
